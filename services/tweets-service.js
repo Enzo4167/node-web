@@ -1,4 +1,4 @@
-let tweets = require('https://node-enzo.herokuapp.com/api/tweets');
+let tweets = require('../data/tweets.json');
 
 module.exports = (app) => {
 

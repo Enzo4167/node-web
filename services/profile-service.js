@@ -1,4 +1,4 @@
-let myProfile = require('https://node-enzo.herokuapp.com/api/profile');
+let myProfile = require('../data/profileData.json');
 
 module.exports = (app) => {
     const getInfo = (req, res) => {
